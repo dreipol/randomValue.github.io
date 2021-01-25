@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider theme={Theme(isDarkMode)}>
         <CssBaseline />
         <AppBarWrapper toggleDarkMode={toggleDarkMode} />
-        <Component {...pageProps} />
+        <Component isDarkMode={isDarkMode} {...pageProps} />
       </ThemeProvider>
     </>
   )

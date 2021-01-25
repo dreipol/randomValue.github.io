@@ -1,7 +1,7 @@
 import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
-import { DarkSmile } from './smiles'
+import { DarkSmile, LightSmile } from './smiles'
 import { Box } from '@material-ui/core'
 import makeStyles from '@material-ui/core/styles/makeStyles'
 
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export const BigLetterSection = () => {
+export const BigLetterSection = ({ isDarkMode }) => {
   const classes = useStyles()
   return (
     <Box p={7} style={{ overflowX: 'hidden' }}>
@@ -58,7 +58,13 @@ export const BigLetterSection = () => {
             </Typography>
           </Grid>
           <Grid item xs={5}>
-            <DarkSmile style={{ position: 'relative' }} />
+            {isDarkMode ? (
+              <LightSmile
+                style={{ position: 'relative' }}
+              />
+            ) : (
+              <DarkSmile style={{ position: 'relative' }} />
+            )}
           </Grid>
         </Grid>
         <Typography

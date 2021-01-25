@@ -2,37 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94fd53af-3e08-47f1-b442-da11666b10fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rcc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/app-bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/big-letter-section.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ellipse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/flower-card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/flowers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/smiles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/colors-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/colors-light.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theming/colors-dark.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theming/colors-light.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theming/custom-theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theming/mui-theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web-zueri.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web-zueri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/big-letter-section.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/big-letter-section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/flowers.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/flowers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +98,7 @@
       <workItem from="1611238882935" duration="521000" />
       <workItem from="1611239432863" duration="2368000" />
       <workItem from="1611257325797" duration="604000" />
-      <workItem from="1611297739764" duration="30237000" />
+      <workItem from="1611297739764" duration="32757000" />
     </task>
     <servers />
   </component>
@@ -163,15 +138,15 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="719" y="282" key="SettingsEditor/0.23.2560.1417/-1920.413.1920.1177@0.23.2560.1417" timestamp="1611239847229" />
-    <state x="621" y="360" width="665" height="486" key="find.popup" timestamp="1611350834308">
+    <state x="621" y="360" width="665" height="486" key="find.popup" timestamp="1611516186883">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="621" y="360" width="665" height="486" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1611350834308" />
+    <state x="621" y="360" width="665" height="486" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1611516186883" />
     <state x="947" y="488" width="665" height="486" key="find.popup/0.23.2560.1417/-1920.413.1920.1177@0.23.2560.1417" timestamp="1611325432895" />
-    <state x="620" y="259" width="440" height="490" key="search.everywhere.popup" timestamp="1611350102870">
+    <state x="620" y="259" width="670" height="490" key="search.everywhere.popup" timestamp="1611555188647">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="620" y="259" width="440" height="490" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1611350102870" />
+    <state x="620" y="259" width="670" height="490" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1611555188647" />
     <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/-1920.413.1920.1177@0.23.2560.1417" timestamp="1611330600558" />
   </component>
 </project>

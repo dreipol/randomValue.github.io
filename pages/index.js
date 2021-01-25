@@ -1,8 +1,6 @@
-import Head from 'next/head'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 import { Box, makeStyles } from '@material-ui/core'
-import { DarkSmile, LightSmile } from '../components/smiles'
 import {
   BlueFlower,
   BlueFlowerBouguet,
@@ -12,6 +10,7 @@ import { Ellipse } from '../components/ellipse'
 import Container from '@material-ui/core/Container'
 import { FlowerCard } from '../components/flower-card'
 import { BigLetterSection } from '../components/big-letter-section'
+import { Header } from '../components/header'
 
 const useStyles = makeStyles((theme) => ({
   ellipseBG: {
@@ -29,42 +28,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default function Home() {
+export default function Home({ isDarkMode }) {
   const classes = useStyles()
   return (
     <div>
-      <header style={{ width: '100%' }}>
-        <Box mb={30} mt={21}>
-          <Grid
-            container
-            alignItems="center"
-            direction="column"
-          >
-            <Typography variant="h1">
-              A short story about dark / light mode
-            </Typography>
-            <Box style={{ textAlign: 'center' }} mt={10}>
-              <DarkSmile />
-              <LightSmile
-                style={{
-                  marginLeft: '-75%',
-                  order: '-1',
-                }}
-              />
-            </Box>
-            <Grid item xs={2}>
-              <Box mt={5}>
-                <Typography variant="body1" align="center">
-                  Vergiß, vergiß, und laß uns jetzt nur dies
-                  erleben, wie die Sterne durch geklärten
-                  Nachthimmel dringen, wie der Mond die
-                  Gärten voll übersteigt.
-                </Typography>
-              </Box>
-            </Grid>
-          </Grid>
-        </Box>
-      </header>
+      <Header isDarkMode={isDarkMode} />
       <main />
       <Box
         pt={30}
@@ -160,7 +128,7 @@ export default function Home() {
           </Box>
         </Container>
       </Box>
-      <BigLetterSection />
+      <BigLetterSection isDarkMode={isDarkMode} />
       <footer />
     </div>
   )

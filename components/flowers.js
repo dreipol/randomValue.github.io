@@ -482,15 +482,15 @@ export const RedFlowers = (props) => {
       />
       <mask
         id="mask1"
-        maskUnits="userSpaceOnUse"
         x="1"
         y="136"
         width="62"
         height="62"
+        maskUnits="userSpaceOnUse"
       >
         <path
           d="M40.459 138.251L3.03351 178.257C1.41181 179.991 1.64247 182.747 3.61351 184.07C17.2441 193.219 42.1385 204.361 56 190.5C69.9037 176.596 56.6981 151.871 46.3084 138.443C44.8534 136.563 42.0834 136.514 40.459 138.251Z"
-          fill="#C4C4C4"
+          fill="#ffffff"
         />
       </mask>
       <g mask="url(#mask1)">
