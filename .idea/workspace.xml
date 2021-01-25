@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94fd53af-3e08-47f1-b442-da11666b10fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/flower-card-section.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/text-section.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/colors-dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/colors-dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/colors-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/colors-light.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +93,7 @@
       <workItem from="1611238882935" duration="521000" />
       <workItem from="1611239432863" duration="2368000" />
       <workItem from="1611257325797" duration="604000" />
-      <workItem from="1611297739764" duration="33844000" />
+      <workItem from="1611297739764" duration="34439000" />
     </task>
     <servers />
   </component>
