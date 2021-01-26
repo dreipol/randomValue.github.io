@@ -22,12 +22,6 @@ function MyApp({ Component, pageProps }) {
     setIsDarkMode(!isDarkMode)
   }
 
-  useEffect(() => {
-    document.documentElement.setAttribute(
-      'data-theme',
-      isDarkMode ? 'dark' : '',
-    )
-  }, [isDarkMode])
   return (
     <>
       <Head>

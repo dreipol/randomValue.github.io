@@ -6,5 +6,9 @@ import lightColors from './colors-light.json'
 export const Theme = () => {
   return createMuiTheme({
     ...CustomTheme(lightColors.colors),
+    palette: {
+      ...CustomTheme(lightColors.colors).palette,
+      type: 'dark',
+    },
   })
 }

@@ -6,7 +6,6 @@ const CustomTheme = (colors, isDarkmode) => {
       },
     },
     palette: {
-      type: 'dark',
       primary: {
         main: colors['primary-500'],
       },
