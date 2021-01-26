@@ -11,7 +11,7 @@ import { Theme } from '../theming/mui-theme'
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="en" data-theme='dark'>
         <Head>
           {/* PWA primary color */}
           <link
