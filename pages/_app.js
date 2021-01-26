@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
         <title>A short story about dark / light mode</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ThemeProvider theme={Theme(isDarkMode)}>
+      <ThemeProvider theme={Theme()}>
         <CssBaseline />
         <AppBarWrapper toggleDarkMode={toggleDarkMode} />
         <Component isDarkMode={isDarkMode} {...pageProps} />
