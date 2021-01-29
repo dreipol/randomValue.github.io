@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
       borderRadius: '50%',
       border: '4px solid var(--colors-background-inverted)',
       bottom: '-65px',
-      right: '-300px',
+      left: '430px',
     },
   },
   bigLetters: {
@@ -105,7 +105,7 @@ export const BigLetterSection = ({ isDarkMode }) => {
           </Grid>
           <Grid
             item
-            xs={6}
+            xs={3}
             style={{ position: 'relative' }}
             className={classes.outlineCircle}
           >
@@ -115,15 +115,9 @@ export const BigLetterSection = ({ isDarkMode }) => {
                 position: 'relative',
               }}
             >
-              Vergiß, vergiß, und laß uns jetzt nur dies
-              erleben, wie die Sterne durch geklärten
-              Nachthimmel dringen, wie der Mond die Gärten
-              voll übersteigt. Wir fühlten längst schon,
-              wie's spiegelnder wird im Dunkeln; wie ein
-              Schein entsteht, ein weißer Schatten in dem
-              Glanz der Dunkelheit. Nun aber laß uns ganz
-              hinübertreten in die Welt hinein die monden
-              ist.
+              MUI is powerful in creating fast and
+              functional themes. To control elements
+              individually, we use CSS Variables.
             </Typography>
           </Grid>
         </Grid>

@@ -42,13 +42,14 @@ export const Header = ({ isDarkMode }) => {
               }}
             />
           </Box>
-          <Grid item xs={2}>
+          <Grid item xs={3}>
             <Box mt={5}>
               <Typography variant="body1" align="center">
-                Vergiß, vergiß, und laß uns jetzt nur dies
-                erleben, wie die Sterne durch geklärten
-                Nachthimmel dringen, wie der Mond die Gärten
-                voll übersteigt.
+                Hi. We are Fabrice Tobler and Thibault
+                Badoux, frontend developers at dreipol. We
+                have combined CSS Variables and Material-UI
+                on this website to enhance the dark / light
+                mode experience.
               </Typography>
             </Box>
           </Grid>

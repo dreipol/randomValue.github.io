@@ -6,12 +6,11 @@ import Document, {
   NextScript,
 } from 'next/document'
 import { ServerStyleSheets } from '@material-ui/core/styles'
-import { Theme } from '../theming/mui-theme'
 
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en" data-theme='dark'>
+      <Html lang="en">
         <Head>
           {/* PWA primary color */}
           <link
@@ -72,7 +71,7 @@ MyDocument.getInitialProps = async (ctx) => {
     })
 
   const initialProps = await Document.getInitialProps(ctx)
-
+  
   return {
     ...initialProps,
     // Styles fragment is rendered after the app and page rendering finish.

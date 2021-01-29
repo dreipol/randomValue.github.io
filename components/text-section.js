@@ -43,15 +43,14 @@ export const TextSection = () => {
               The colors in dark / light mode
             </Typography>
             <Typography variant="body1">
-              Vergiß, vergiß, und laß uns jetzt nur dies
-              erleben, wie die Sterne durch geklärten
-              Nachthimmel dringen, wie der Mond die Gärten
-              voll übersteigt. Wir fühlten längst schon,
-              wie's spiegelnder wird im Dunkeln; wie ein
-              Schein entsteht, ein weißer Schatten in dem
-              Glanz der Dunkelheit. Nun aber laß uns ganz
-              hinübertreten in die Welt hinein die monden
-              ist.
+              To display colors in the two different modes,
+              CSS Variables are in combination with MUI
+              themes. The MUI themes control the background.
+              The flowers are controlled by CSS Variables.
+              To share the color values with MUI and CSS
+              Variables, we saved them in a JSON file. From
+              this file, we assigned them either to MUI or
+              the variables.
             </Typography>
           </Grid>
         </Grid>

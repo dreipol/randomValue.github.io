@@ -17,15 +17,9 @@ export const FlowerCardSection = () => {
           <Grid item xs={5}>
             <Typography variant="h2">The Cards</Typography>
             <Typography variant="body1">
-              Vergiß, vergiß, und laß uns jetzt nur dies
-              erleben, wie die Sterne durch geklärten
-              Nachthimmel dringen, wie der Mond die Gärten
-              voll übersteigt. Wir fühlten längst schon,
-              wie's spiegelnder wird im Dunkeln; wie ein
-              Schein entsteht, ein weißer Schatten in dem
-              Glanz der Dunkelheit. Nun aber laß uns ganz
-              hinübertreten in die Welt hinein die monden
-              ist.
+              The cards are simple MUI cards. MUI controls
+              the text, CSS Variables define the flowers.
+              SASS and MUI work hand in hand here.
             </Typography>
           </Grid>
         </Grid>
