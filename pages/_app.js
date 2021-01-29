@@ -28,7 +28,9 @@ function MyApp({ Component, pageProps, router }) {
   const [isDarkMode, setIsDarkMode] = useState(false)
 
   const { asPath } = router
-
+  
+  console.log(asPath)
+  
   useEffect(() => {
     importColorVars(asPath)
   }, [asPath])
