@@ -5,5 +5,5 @@ module.exports = {
   sassOptions: {
     importer: jsonImporter(),
   },
-  assetPrefix: isProd ? 'https://cdn.statically.io/gh/NaveenDA/naveenda.github.io/gh-pages/' : '',
+  assetPrefix: isProd ? 'https://cdn.statically.io/gh/dreipol/randomvalue.github.io/gh-pages/' : '',
 }
