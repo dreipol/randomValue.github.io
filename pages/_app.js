@@ -28,9 +28,7 @@ function MyApp({ Component, pageProps, router }) {
   const [isDarkMode, setIsDarkMode] = useState(false)
 
   const { route } = router
-  
-  console.log(route)
-  
+
   useEffect(() => {
     importColorVars(route)
   }, [route])
@@ -61,7 +59,14 @@ function MyApp({ Component, pageProps, router }) {
     <>
       <Head>
         <title>A short story about dark / light mode</title>
-        <link rel="icon" href={isDarkMode ? "static/favicon-mond.ico" : "static/favicon-sonne.ico"} />
+        <link
+          rel="icon"
+          href={
+            isDarkMode
+              ? 'static/favicon-mond.ico'
+              : 'static/favicon-sonne.ico'
+          }
+        />
       </Head>
       <ThemeProvider theme={Theme(isDarkMode)}>
         <CssBaseline />
