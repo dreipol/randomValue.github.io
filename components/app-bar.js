@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 import Switch from '@material-ui/core/Switch'
 import AppBar from '@material-ui/core/AppBar'
+import Divider from '@material-ui/core/Divider'
 
 export const AppBarWrapper = ({ toggleDarkMode }) => (
   <AppBar position="sticky" color="inherit" elevation={0}>
@@ -35,5 +36,6 @@ export const AppBarWrapper = ({ toggleDarkMode }) => (
         </Typography>
       </Grid>
     </Toolbar>
+    <Divider />
   </AppBar>
 )

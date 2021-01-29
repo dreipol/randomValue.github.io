@@ -23,6 +23,7 @@ const CustomTheme = (colors, isDarkmode) => {
         paper: colors.paper,
         default: colors.background,
       },
+      divider: colors.background,
       text: {
         primary: colors.text,
         secondary: colors.secondaryText,
@@ -49,6 +50,11 @@ const CustomTheme = (colors, isDarkmode) => {
       },
     },
     overrides: {
+      MuiDivider: {
+        root: {
+          height: '2px',
+        },
+      },
       MuiSwitch: {
         root: {
           width: '82px',

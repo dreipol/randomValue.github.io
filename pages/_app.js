@@ -2,8 +2,8 @@ import '../styles/globals.scss'
 import Head from 'next/head'
 import { ThemeProvider } from '@material-ui/core/styles'
 import CssBaseline from '@material-ui/core/CssBaseline'
-import { Theme as DefaultTheme } from '../theming/mui-theme'
-import { Theme as NoDarkModeTheme } from '../theming/mui-theme-no-dark-mode'
+import { Theme } from '../theming/mui-theme'
+import { DarkMode } from '../theming/mui-theme-dark-mode'
 import { useCallback, useEffect, useState } from 'react'
 import { AppBarWrapper } from '../components/app-bar'
 
@@ -19,10 +19,9 @@ const importColorVars = (path) => {
 
 const getMuiTheme = (path) => {
   if (path === '/no-dark-mode' || path === '/css-vars') {
-    return NoDarkModeTheme
+    return DarkMode
   }
-
-  return DefaultTheme
+  return Theme
 }
 
 function MyApp({ Component, pageProps, router }) {

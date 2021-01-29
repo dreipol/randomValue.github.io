@@ -1,6 +1,6 @@
 import { createMuiTheme } from '@material-ui/core'
-import CustomTheme from './custom-theme-no-dark-mode'
+import CustomTheme from './custom-theme-dark-mode'
 
-export const Theme = () => {
+export const DarkMode = () => {
   return createMuiTheme(CustomTheme)
 }
