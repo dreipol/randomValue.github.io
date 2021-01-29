@@ -1,7 +1,7 @@
-import { BigLetterSection } from '../components/big-letter-section'
-import { Header } from '../components/header'
-import { FlowerCardSection } from '../components/flower-card-section'
-import { TextSection } from '../components/text-section'
+import { BigLetterSection } from '../src/components/big-letter-section'
+import { Header } from '../src/components/header'
+import { FlowerCardSection } from '../src/components/flower-card-section'
+import { TextSection } from '../src/components/text-section'
 
 export default function CssVars({ isDarkMode }) {
   return (

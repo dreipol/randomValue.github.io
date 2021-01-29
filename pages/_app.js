@@ -1,20 +1,20 @@
-import '../styles/globals.scss'
+import '../src/styles/globals.scss'
 import Head from 'next/head'
 import { ThemeProvider } from '@material-ui/core/styles'
 import CssBaseline from '@material-ui/core/CssBaseline'
-import { Theme } from '../theming/mui-theme'
-import { DarkMode } from '../theming/mui-theme-dark-mode'
+import { Theme } from '../src/theming/mui-theme'
+import { DarkMode } from '../src/theming/mui-theme-dark-mode'
 import { useCallback, useEffect, useState } from 'react'
-import { AppBarWrapper } from '../components/app-bar'
+import { AppBarWrapper } from '../src/components/app-bar'
 
 const importColorVars = (path) => {
   if (path === '/no-dark-mode') {
-    import('../scss/colors-light.scss')
+    import('../src/scss/colors-light.scss')
     return
   }
 
-  import('../scss/colors-light.scss')
-  import('../scss/colors-dark.scss')
+  import('../src/scss/colors-light.scss')
+  import('../src/scss/colors-dark.scss')
 }
 
 const getMuiTheme = (path) => {
