@@ -59,7 +59,7 @@ function MyApp({ Component, pageProps, router }) {
     <>
       <Head>
         <title>A short story about dark / light mode</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={isDarkMode ? "static/favicon-mond.ico" : "static/favicon-sonne.ico"} />
       </Head>
       <ThemeProvider theme={Theme(isDarkMode)}>
         <CssBaseline />
