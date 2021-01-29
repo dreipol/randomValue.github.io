@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps, router }) {
 
   const { asPath } = router
   
-  console.log(asPath)
+  console.log(router)
   
   useEffect(() => {
     importColorVars(asPath)
