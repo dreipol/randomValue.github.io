@@ -27,13 +27,13 @@ const getMuiTheme = (path) => {
 function MyApp({ Component, pageProps, router }) {
   const [isDarkMode, setIsDarkMode] = useState(false)
 
-  const { asPath } = router
+  const { route } = router
   
-  console.log(asPath)
+  console.log(route)
   
   useEffect(() => {
-    importColorVars(asPath)
-  }, [asPath])
+    importColorVars(route)
+  }, [route])
 
   useEffect(() => {
     // Remove the server-side injected CSS.
@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps, router }) {
     }
   }, [])
 
-  const Theme = useCallback(getMuiTheme(asPath), [asPath])
+  const Theme = useCallback(getMuiTheme(route), [route])
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode)
